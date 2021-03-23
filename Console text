@@ -1,0 +1,17 @@
+using System;
+
+namespace ConsoleText
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Please enter your text!");
+            string text = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine(text);
+            Console.ReadKey();
+
+        }
+    }
+}
